@@ -91,6 +91,9 @@ public class MainActivity extends Activity {
         btnCalculate.setEnabled(false);
         etWeeks.setEnabled(false);
 
+        //Setup Options to only show EuroMillions if not in UK. Further work to add other country lotto's
+        setupOptions();
+
         setupSpinner();
 
         final Button button = btnCalculate;
@@ -112,6 +115,16 @@ public class MainActivity extends Activity {
                 }
             }
         });
+    }
+
+    private void setupOptions()
+    {
+        Locale locale = Locale.getDefault();
+        if (!locale.equals(Locale.UK))
+        {
+            cbLotto.setEnabled(false);
+            cbHealth.setEnabled(false);
+        }
     }
 
     private void showAbout()
@@ -346,7 +359,7 @@ private String CalculateCosts()
     finalResult = Float.parseFloat(twoDForm.format(costTotal));
     finalResult = finalResult / 100;
 
-    NumberFormat n = NumberFormat.getCurrencyInstance(Locale.UK);
+    NumberFormat n = NumberFormat.getCurrencyInstance();
     String s = n.format(finalResult);
 
     //return String.valueOf(s);
