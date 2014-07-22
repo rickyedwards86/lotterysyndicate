@@ -1,0 +1,43 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.12.+'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+
+//    signingConfigs {
+//        release{
+//            storeFile file("com.boltify.lotterysyndicate")
+//            storePassword "l0tt3ry"
+//            keyAlias "com.boltify.lotterysyndicate"
+//            keyPassword "l0tt3ry"
+//        }
+//    }
+//    buildTypes{
+//        release{
+//            signingConfig signingConfigs.release
+//        }
+//    }
+
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+
+    defaultConfig {
+        minSdkVersion 14
+       targetSdkVersion 19
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.google.android.gms:play-services:5.0.77'
+}

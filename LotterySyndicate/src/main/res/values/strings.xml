@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copyright">Boltify \u00A9 2014</string>
+    <string name="version">Version</string>
+    <string name="app_version">v1.0.0</string>
+    <string name="app_name">LotterySyndicate</string>
+    <string name="menu_members">Syndicate Members</string>
+    <string name="menu_about">About</string>
+    <string name="SyndicateAmount">Amount of syndicate members</string>
+    <string name="WhichGames">Which Games</string>
+    <string name="Lotto">Lotto</string>
+    <string name="EuroMillions">EuroMillions</string>
+    <string name="HealthLotto">Health Lottery</string>
+    <string name="Plus5">Plus 5</string>
+    <string name="WeeksAmount">How Many Weeks</string>
+    <string name="Lines">Lines</string>
+    <string name="Draws">Draws</string>
+    <string name="Calculate">Calculate</string>
+    <string name="Result">Result</string>
+    <string name="Ok">Ok</string>
+    <string name="AmountRequired">Amount of syndicate members required</string>
+    <string name="WeeksRequired">Amount of weeks required</string>
+    <string name="DrawsRequired">At least one draw must be selected</string>
+    <string name="LottoLinesRequired">Amount of Lotto Lines is required</string>
+    <string name="EuroLinesRequired">Amount of EuroMillion lines is required</string>
+    <string name="HealthLinesRequired">Amount of Health Lottery lines is required</string>
+</resources>
