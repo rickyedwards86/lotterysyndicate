@@ -14,20 +14,6 @@ repositories {
 
 android {
 
-//    signingConfigs {
-//        release{
-//            storeFile file("com.boltify.lotterysyndicate")
-//            storePassword "l0tt3ry"
-//            keyAlias "com.boltify.lotterysyndicate"
-//            keyPassword "l0tt3ry"
-//        }
-//    }
-//    buildTypes{
-//        release{
-//            signingConfig signingConfigs.release
-//        }
-//    }
-
     compileSdkVersion 19
     buildToolsVersion '19.1.0'
 
